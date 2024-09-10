@@ -1,0 +1,52 @@
+body { 
+    background-image: url("C:/Users/LGU Jabongga/Downloads/CATS/VATS.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+}
+
+h1 {
+    color: #4f016c; 
+    font-family: 'comic sans ms'; 
+    font-weight: bolder;
+    font-size: 46px;
+    width: fit-content; 
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-width: 2px;
+    border-left-style: double;
+    border-left-width: 4px;
+    border-right-style: double;
+    border-right-width: 4px;
+    border-color: #e04fab;
+    border-radius: 20px;
+    padding: 14px;
+    margin: 0 auto; 
+}
+
+p {
+    color: #6e0075; 
+    font-weight: bold; 
+    font-family: 'comic sans ms'; 
+    font-style: italic; 
+    font-size: 30px;
+}
+
+.animated-image {
+    position: absolute;
+    bottom: 10px; 
+    left: -150px;
+    width: 150px; 
+    height: auto; 
+    animation: slideRight 15s linear infinite;
+}
+
+@keyframes slideRight {
+    0% {
+        left: -150px; 
+    }
+    100% {
+        left: 100vw; 
+    }
+}
